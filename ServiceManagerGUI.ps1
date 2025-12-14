@@ -271,6 +271,7 @@ Add-Type -AssemblyName PresentationFramework
                           RowStyle="{StaticResource DiffRowStyle}">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Name" Binding="{Binding Name}" IsReadOnly="True" Width="150"/>
+                        <DataGridTextColumn Header="Display Name" Binding="{Binding DisplayName}" IsReadOnly="True" Width="200"/>
                         
                         <!-- Baseline Columns (Read Only) -->
                         <DataGridTextColumn Header="Base Start" Binding="{Binding BaseStart}" IsReadOnly="True" Width="80" Foreground="Gray"/>
@@ -466,24 +467,16 @@ function Update-DiffGrid {
         $isChanged = ($bStart -ne $pStart) -or ($bStatus -ne $pStatus)
 
         # Create row object
-        $row = New-Object PSObject
-        $row | Add-Member -MemberType NoteProperty -Name "Name" -Value $b.Name
-        $row | Add-Member -MemberType NoteProperty -Name "BaseStart" -Value $bStart
-        $row | Add-Member -MemberType NoteProperty -Name "BaseStatus" -Value $bStatus
-        
-        # PLAN properties must be direct references to the Plan object to allow editing? 
-        # Actually DataGrid editing updates the bound object. We should bind to a wrapper that syncs back or just use the wrapper.
-        # Simple approach: Create a wrapper property that updates the underlying plan object on set? 
-        # Too complex for quick script. 
-        # Alternative: The "PlanStart" and "PlanStatus" are just strings. We save this $diffRows list as the new plan. 
-        # Correct. We will export the DG source as the new plan.
-        
-        $row | Add-Member -MemberType NoteProperty -Name "PlanStart" -Value $pStart
-        $row | Add-Member -MemberType NoteProperty -Name "PlanStatus" -Value $pStatus
-        $row | Add-Member -MemberType NoteProperty -Name "IsChanged" -Value $isChanged
-        # Keep detailed info for saving later
-        $row | Add-Member -MemberType NoteProperty -Name "DisplayName" -Value $b.DisplayName
-        $row | Add-Member -MemberType NoteProperty -Name "IsTrigger" -Value $b.IsTrigger 
+        $row = [PSCustomObject]@{
+            Name        = $b.Name
+            DisplayName = $b.DisplayName
+            BaseStart   = $bStart
+            BaseStatus  = $bStatus
+            PlanStart   = $pStart
+            PlanStatus  = $pStatus
+            IsChanged   = $isChanged
+            IsTrigger   = $b.IsTrigger
+        } 
 
         $diffRows += $row
     }
