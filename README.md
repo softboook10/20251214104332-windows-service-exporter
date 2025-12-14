@@ -44,6 +44,11 @@ Save the state of services to a JSON file.
 -   **Output**: A file named `TIMESTAMP-windows-services.json` in the `.\exports` directory.
 
 ### GUI Interface (ServiceManagerGUI)
+
+<img width="1328" height="898" alt="image" src="https://github.com/user-attachments/assets/db6aec1d-7964-4009-9da0-39bc3afb7d14" />
+<img width="1328" height="888" alt="image" src="https://github.com/user-attachments/assets/d03ddc2a-c7b3-4ecd-947c-4e841678ad96" />
+
+
 For a visual interface to manage configurations:
 
 **Command:**
