@@ -1,6 +1,15 @@
 # Get current date for filename
 $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
-$outputFile = ".\Windows11_Services_$timestamp.txt"
+
+# Define output directory and file path
+$outputDir = ".\out"
+$outputFile = "$outputDir\Windows11_Services_$timestamp.txt"
+
+# Create the 'out' directory if it doesn't exist
+if (-not (Test-Path $outputDir)) {
+    Write-Host "Creating output directory: $outputDir" -ForegroundColor Yellow
+    New-Item -ItemType Directory -Path $outputDir | Out-Null
+}
 
 Write-Host "Reading Services and checking Triggers..." -ForegroundColor Cyan
 
@@ -35,7 +44,7 @@ $results = Get-Service | Sort-Object DisplayName | ForEach-Object {
 }
 
 # Output to file
-# We use 'Out-String -Width 4096' to prevent the columns from being cut off (truncated)
+# 'Out-String -Width 4096' ensures long lines are not cut off
 $results | Format-Table -AutoSize | Out-String -Width 4096 | Out-File -FilePath $outputFile -Encoding UTF8
 
 Write-Host "Done! Saved to $outputFile" -ForegroundColor Green
