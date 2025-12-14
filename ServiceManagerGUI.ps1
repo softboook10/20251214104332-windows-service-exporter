@@ -126,7 +126,7 @@ $global:currentFilePath = ""
 $btnLoadConfig.Add_Click({
         $dlg = New-Object Microsoft.Win32.OpenFileDialog
         $dlg.Filter = "JSON Files (*.json)|*.json|All Files (*.*)|*.*"
-        $dlg.InitialDirectory = "$PSScriptRoot\out"
+        $dlg.InitialDirectory = "$PSScriptRoot\configs"
         if ($dlg.ShowDialog() -eq $true) {
             try {
                 $global:currentServices = Get-Content -Path $dlg.FileName -Raw | ConvertFrom-Json
@@ -145,13 +145,13 @@ $btnLoadConfig.Add_Click({
 
 # Export New (Runs script)
 $btnExportNew.Add_Click({
-        $outDir = "$PSScriptRoot\out"
+        $outDir = "$PSScriptRoot\configs"
         if (-not (Test-Path $outDir)) { New-Item -ItemType Directory -Path $outDir | Out-Null }
     
         # Run the script in a new window
-        Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File `"$PSScriptRoot\ManageServices.ps1`" -Mode Export" -Wait
+        Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File `"$PSScriptRoot\ManageServices.ps1`" -Mode Export -ConfigPath `"$outDir\$(Get-Date -Format 'yyyyMMddHHmmss')-windows-services.json`"" -Wait
     
-        [System.Windows.MessageBox]::Show("Export complete. Please load the new file from the 'out' directory.", "Info", 0, 64)
+        [System.Windows.MessageBox]::Show("Export complete. Please load the new file from the 'configs' directory.", "Info", 0, 64)
     })
 
 # Filter Text Change
@@ -186,8 +186,8 @@ $btnApplyEdit.Add_Click({
 $btnSaveConfig.Add_Click({
         $dlg = New-Object Microsoft.Win32.SaveFileDialog
         $dlg.Filter = "JSON Files (*.json)|*.json"
-        $dlg.FileName = "ModifiedConfig.json"
-        $dlg.InitialDirectory = "$PSScriptRoot\out"
+        $dlg.FileName = "modified-config.json"
+        $dlg.InitialDirectory = "$PSScriptRoot\configs"
     
         if ($dlg.ShowDialog() -eq $true) {
             try {

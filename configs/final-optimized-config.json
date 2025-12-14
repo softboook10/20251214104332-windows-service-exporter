@@ -1,0 +1,2165 @@
+[
+    {
+        "Name":  "AarSvc_61607",
+        "DisplayName":  "AarSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "AxInstSV",
+        "DisplayName":  "ActiveX Installer (AxInstSV)",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ADPSvc",
+        "DisplayName":  "ADPSvc",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "AppReadiness",
+        "DisplayName":  "App Readiness",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "AppIDSvc",
+        "DisplayName":  "Application Identity",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Appinfo",
+        "DisplayName":  "Application Information",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "ALG",
+        "DisplayName":  "Application Layer Gateway Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "AppMgmt",
+        "DisplayName":  "Application Management",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "AppXSvc",
+        "DisplayName":  "AppX Deployment Service (AppXSVC)",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "AssignedAccessManagerSvc",
+        "DisplayName":  "AssignedAccessManager Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "AsusAppService",
+        "DisplayName":  "ASUS App Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ASUSOptimization",
+        "DisplayName":  "ASUS Optimization",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ASUSSoftwareManager",
+        "DisplayName":  "ASUS Software Manager",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ASUSSwitch",
+        "DisplayName":  "ASUS Switch",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ASUSSystemAnalysis",
+        "DisplayName":  "ASUS System Analysis",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ASUSSystemDiagnosis",
+        "DisplayName":  "ASUS System Diagnosis",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "AsusNumPadService",
+        "DisplayName":  "AsusNumPadService",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "aswbIDSAgent",
+        "DisplayName":  "aswbIDSAgent",
+        "Status":  "StopPending",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "tzautoupdate",
+        "DisplayName":  "Auto Time Zone Updater",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "avast! Antivirus",
+        "DisplayName":  "Avast Antivirus",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "avast! Firewall",
+        "DisplayName":  "Avast Firewall Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "avast! Tools",
+        "DisplayName":  "Avast Tools",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "AvastWscReporter",
+        "DisplayName":  "AvastWscReporter",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "BthAvctpSvc",
+        "DisplayName":  "AVCTP service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "BITS",
+        "DisplayName":  "Background Intelligent Transfer Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "BrokerInfrastructure",
+        "DisplayName":  "Background Tasks Infrastructure Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "BFE",
+        "DisplayName":  "Base Filtering Engine",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "BcastDVRUserService_61607",
+        "DisplayName":  "BcastDVRUserService_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "BDESVC",
+        "DisplayName":  "BitLocker Drive Encryption Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "wbengine",
+        "DisplayName":  "Block Level Backup Engine Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "BTAGService",
+        "DisplayName":  "Bluetooth Audio Gateway Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "bthserv",
+        "DisplayName":  "Bluetooth Support Service",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "BluetoothUserService_61607",
+        "DisplayName":  "BluetoothUserService_61607",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "PeerDistSvc",
+        "DisplayName":  "BranchCache",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "camsvc",
+        "DisplayName":  "Capability Access Manager Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "CaptureService_61607",
+        "DisplayName":  "CaptureService_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "cbdhsvc_61607",
+        "DisplayName":  "cbdhsvc_61607",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "CDPUserSvc_61607",
+        "DisplayName":  "CDPUserSvc_61607",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "autotimesvc",
+        "DisplayName":  "Cellular Time",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "CertPropSvc",
+        "DisplayName":  "Certificate Propagation",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "ClipSVC",
+        "DisplayName":  "Client License Service (ClipSVC)",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "CloudBackupRestoreSvc_61607",
+        "DisplayName":  "CloudBackupRestoreSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "KeyIso",
+        "DisplayName":  "CNG Key Isolation",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "EventSystem",
+        "DisplayName":  "COM+ Event System",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "COMSysApp",
+        "DisplayName":  "COM+ System Application",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "CDPSvc",
+        "DisplayName":  "Connected Devices Platform Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DiagTrack",
+        "DisplayName":  "Connected User Experiences and Telemetry",
+        "Status":  "Stopped",
+        "StartType":  "Disabled",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ConsentUxUserSvc_61607",
+        "DisplayName":  "ConsentUxUserSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "CoreMessagingRegistrar",
+        "DisplayName":  "CoreMessaging",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "VaultSvc",
+        "DisplayName":  "Credential Manager",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "CredentialEnrollmentManagerUserSvc_61607",
+        "DisplayName":  "CredentialEnrollmentManagerUserSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "CryptSvc",
+        "DisplayName":  "Cryptographic Services",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DsSvc",
+        "DisplayName":  "Data Sharing Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DusmSvc",
+        "DisplayName":  "Data Usage",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "DcomLaunch",
+        "DisplayName":  "DCOM Server Process Launcher",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "dcsvc",
+        "DisplayName":  "Declared Configuration(DC) service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DoSvc",
+        "DisplayName":  "Delivery Optimization",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DeviceAssociationService",
+        "DisplayName":  "Device Association Service",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DeviceInstall",
+        "DisplayName":  "Device Install Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DmEnrollmentSvc",
+        "DisplayName":  "Device Management Enrollment Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "dmwappushservice",
+        "DisplayName":  "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DsmSvc",
+        "DisplayName":  "Device Setup Manager",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DeviceAssociationBrokerSvc_61607",
+        "DisplayName":  "DeviceAssociationBrokerSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "DevicePickerUserSvc_61607",
+        "DisplayName":  "DevicePickerUserSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "DevicesFlowUserSvc_61607",
+        "DisplayName":  "DevicesFlowUserSvc_61607",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "DevQueryBroker",
+        "DisplayName":  "DevQuery Background Discovery Broker",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Dhcp",
+        "DisplayName":  "DHCP Client",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "diagsvc",
+        "DisplayName":  "Diagnostic Execution Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DPS",
+        "DisplayName":  "Diagnostic Policy Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WdiServiceHost",
+        "DisplayName":  "Diagnostic Service Host",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WdiSystemHost",
+        "DisplayName":  "Diagnostic System Host",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "DialogBlockingService",
+        "DisplayName":  "DialogBlockingService",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "DisplayEnhancementService",
+        "DisplayName":  "Display Enhancement Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "DispBrokerDesktopSvc",
+        "DisplayName":  "Display Policy Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "TrkWks",
+        "DisplayName":  "Distributed Link Tracking Client",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "MSDTC",
+        "DisplayName":  "Distributed Transaction Coordinator",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "Dnscache",
+        "DisplayName":  "DNS Client",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "MapsBroker",
+        "DisplayName":  "Downloaded Maps Manager",
+        "Status":  "Stopped",
+        "StartType":  "Disabled",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "DtsApo4Service",
+        "DisplayName":  "DtsApo4Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "embeddedmode",
+        "DisplayName":  "Embedded Mode",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "EFS",
+        "DisplayName":  "Encrypting File System (EFS)",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "EntAppSvc",
+        "DisplayName":  "Enterprise App Management Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "EapHost",
+        "DisplayName":  "Extensible Authentication Protocol",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "fhsvc",
+        "DisplayName":  "File History Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "fdPHost",
+        "DisplayName":  "Function Discovery Provider Host",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "FDResPub",
+        "DisplayName":  "Function Discovery Resource Publication",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "GameInputSvc",
+        "DisplayName":  "GameInput Service",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "lfsvc",
+        "DisplayName":  "Geolocation Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "GoogleChromeElevationService",
+        "DisplayName":  "Google Chrome Elevation Service (GoogleChromeElevationService)",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "GoogleUpdaterInternalService145.0.7569.0",
+        "DisplayName":  "Google Updater Internal Service (GoogleUpdaterInternalService145.0.7569.0)",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "GoogleUpdaterService145.0.7569.0",
+        "DisplayName":  "Google Updater Service (GoogleUpdaterService145.0.7569.0)",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "GraphicsPerfSvc",
+        "DisplayName":  "GraphicsPerfSvc",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "gpsvc",
+        "DisplayName":  "Group Policy Client",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "HgClientService",
+        "DisplayName":  "Host Guardian Client Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "HNS",
+        "DisplayName":  "Host Network Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "hpatchmon",
+        "DisplayName":  "Hotpatch Monitoring Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "hidserv",
+        "DisplayName":  "Human Interface Device Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "HvHost",
+        "DisplayName":  "HV Host Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "vmickvpexchange",
+        "DisplayName":  "Hyper-V Data Exchange Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "vmicguestinterface",
+        "DisplayName":  "Hyper-V Guest Service Interface",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "vmicshutdown",
+        "DisplayName":  "Hyper-V Guest Shutdown Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "vmicheartbeat",
+        "DisplayName":  "Hyper-V Heartbeat Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "vmcompute",
+        "DisplayName":  "Hyper-V Host Compute Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "vmicvmsession",
+        "DisplayName":  "Hyper-V PowerShell Direct Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "vmicrdv",
+        "DisplayName":  "Hyper-V Remote Desktop Virtualization Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "vmictimesync",
+        "DisplayName":  "Hyper-V Time Synchronization Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "vmms",
+        "DisplayName":  "Hyper-V Virtual Machine Management",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "vmicvss",
+        "DisplayName":  "Hyper-V Volume Shadow Copy Requestor",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "IKEEXT",
+        "DisplayName":  "IKE and AuthIP IPsec Keying Modules",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "ImDskSvc",
+        "DisplayName":  "ImDisk Virtual Disk Driver Helper",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ibtsiva",
+        "DisplayName":  "Intel Bluetooth Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "IntelAudioService",
+        "DisplayName":  "Intel(R) Audio Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "cplspcon",
+        "DisplayName":  "Intel(R) Content Protection HDCP Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "jhi_service",
+        "DisplayName":  "Intel(R) Dynamic Application Loader Host Interface Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "esifsvc",
+        "DisplayName":  "Intel(R) Dynamic Tuning service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "igccservice",
+        "DisplayName":  "Intel(R) Graphics Command Center Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "igfxCUIService2.0.0.0",
+        "DisplayName":  "Intel(R) HD Graphics Control Panel Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "WMIRegistrationService",
+        "DisplayName":  "Intel(R) Management Engine WMI Provider Registration",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RstMwService",
+        "DisplayName":  "Intel(R) Storage Middleware Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "Intel(R) TPM Provisioning Service",
+        "DisplayName":  "Intel(R) TPM Provisioning Service",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "PIEServiceNew",
+        "DisplayName":  "Intel® PROSet/Wireless Service",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SharedAccess",
+        "DisplayName":  "Internet Connection Sharing (ICS)",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "InventorySvc",
+        "DisplayName":  "Inventory and Compatibility Appraisal service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "iphlpsvc",
+        "DisplayName":  "IP Helper",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "IpxlatCfgSvc",
+        "DisplayName":  "IP Translation Configuration Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "PolicyAgent",
+        "DisplayName":  "IPsec Policy Agent",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "LocalKdc",
+        "DisplayName":  "Kerberos Local Key Distribution Center",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "KtmRm",
+        "DisplayName":  "KtmRm for Distributed Transaction Coordinator",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "LxpSvc",
+        "DisplayName":  "Language Experience Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "LibreOfficeMaintenance",
+        "DisplayName":  "LibreOffice Maintenance Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "lltdsvc",
+        "DisplayName":  "Link-Layer Topology Discovery Mapper",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "wlpasvc",
+        "DisplayName":  "Local Profile Assistant Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "LSM",
+        "DisplayName":  "Local Session Manager",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "OptionsPlusUpdaterService",
+        "DisplayName":  "Logi Options+",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "MBAMService",
+        "DisplayName":  "Malwarebytes Service",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "MBVpnTunnelService",
+        "DisplayName":  "MBVpnTunnelService",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "McpManagementService",
+        "DisplayName":  "McpManagementService",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "MessagingService_61607",
+        "DisplayName":  "MessagingService_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "wlidsvc",
+        "DisplayName":  "Microsoft Account Sign-in Assistant",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "AppVClient",
+        "DisplayName":  "Microsoft App-V Client",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "cloudidsvc",
+        "DisplayName":  "Microsoft Cloud Identity Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WdNisSvc",
+        "DisplayName":  "Microsoft Defender Antivirus Network Inspection Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WinDefend",
+        "DisplayName":  "Microsoft Defender Antivirus Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "MDCoreSvc",
+        "DisplayName":  "Microsoft Defender Core Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "MicrosoftEdgeElevationService",
+        "DisplayName":  "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "edgeupdate",
+        "DisplayName":  "Microsoft Edge Update Service (edgeupdate)",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "edgeupdatem",
+        "DisplayName":  "Microsoft Edge Update Service (edgeupdatem)",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "MSiSCSI",
+        "DisplayName":  "Microsoft iSCSI Initiator Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "MsKeyboardFilter",
+        "DisplayName":  "Microsoft Keyboard Filter",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "NgcSvc",
+        "DisplayName":  "Microsoft Passport",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "NgcCtnrSvc",
+        "DisplayName":  "Microsoft Passport Container",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "swprv",
+        "DisplayName":  "Microsoft Software Shadow Copy Provider",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "smphost",
+        "DisplayName":  "Microsoft Storage Spaces SMP",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "InstallService",
+        "DisplayName":  "Microsoft Store Install Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SmsRouter",
+        "DisplayName":  "Microsoft Windows SMS Router Service.",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "NaturalAuthentication",
+        "DisplayName":  "Natural Authentication",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "NetTcpPortSharing",
+        "DisplayName":  "Net.Tcp Port Sharing Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "Netlogon",
+        "DisplayName":  "Netlogon",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "NcdAutoSetup",
+        "DisplayName":  "Network Connected Devices Auto-Setup",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "NcbService",
+        "DisplayName":  "Network Connection Broker",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Netman",
+        "DisplayName":  "Network Connections",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "NcaSvc",
+        "DisplayName":  "Network Connectivity Assistant",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "netprofm",
+        "DisplayName":  "Network List Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "NlaSvc",
+        "DisplayName":  "Network Location Awareness",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "NetSetupSvc",
+        "DisplayName":  "Network Setup Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "nsi",
+        "DisplayName":  "Network Store Interface Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "nvagent",
+        "DisplayName":  "Network Virtualization Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "NPSMSvc_61607",
+        "DisplayName":  "NPSMSvc_61607",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "CscService",
+        "DisplayName":  "Offline Files",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "OneSyncSvc_61607",
+        "DisplayName":  "OneSyncSvc_61607",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ssh-agent",
+        "DisplayName":  "OpenSSH Authentication Agent",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "OpenVPNServiceInteractive",
+        "DisplayName":  "OpenVPN Interactive Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "OpenVPNService",
+        "DisplayName":  "OpenVPNService",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "defragsvc",
+        "DisplayName":  "Optimize drives",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "P9RdrService_61607",
+        "DisplayName":  "P9RdrService_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "WpcMonSvc",
+        "DisplayName":  "Parental Controls",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SEMgrSvc",
+        "DisplayName":  "Payments and NFC/SE Manager",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "PenService_61607",
+        "DisplayName":  "PenService_61607",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "PerfHost",
+        "DisplayName":  "Performance Counter DLL Host",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "pla",
+        "DisplayName":  "Performance Logs \u0026 Alerts",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "PhoneSvc",
+        "DisplayName":  "Phone Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "PimIndexMaintenanceSvc_61607",
+        "DisplayName":  "PimIndexMaintenanceSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "PlugPlay",
+        "DisplayName":  "Plug and Play",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WPDBusEnum",
+        "DisplayName":  "Portable Device Enumerator Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Power",
+        "DisplayName":  "Power",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "PrintDeviceConfigurationService",
+        "DisplayName":  "Print Device Configuration Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Spooler",
+        "DisplayName":  "Print Spooler",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "PrintNotify",
+        "DisplayName":  "Printer Extensions and Notifications",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "PrintScanBrokerService",
+        "DisplayName":  "PrintScanBrokerService",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "PrintWorkflowUserSvc_61607",
+        "DisplayName":  "PrintWorkflowUserSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "wercplsupport",
+        "DisplayName":  "Problem Reports Control Panel Support",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "PcaSvc",
+        "DisplayName":  "Program Compatibility Assistant Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "QWAVE",
+        "DisplayName":  "Quality Windows Audio Video Experience",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RmSvc",
+        "DisplayName":  "Radio Management Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RtkAudioUniversalService",
+        "DisplayName":  "Realtek Audio Universal Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "TroubleshootingSvc",
+        "DisplayName":  "Recommended Troubleshooting Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "refsdedupsvc",
+        "DisplayName":  "ReFS Dedup Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RasAuto",
+        "DisplayName":  "Remote Access Auto Connection Manager",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RasMan",
+        "DisplayName":  "Remote Access Connection Manager",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SessionEnv",
+        "DisplayName":  "Remote Desktop Configuration",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "TermService",
+        "DisplayName":  "Remote Desktop Services",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "UmRdpService",
+        "DisplayName":  "Remote Desktop Services UserMode Port Redirector",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RpcSs",
+        "DisplayName":  "Remote Procedure Call (RPC)",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RpcLocator",
+        "DisplayName":  "Remote Procedure Call (RPC) Locator",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RemoteRegistry",
+        "DisplayName":  "Remote Registry",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "RetailDemo",
+        "DisplayName":  "Retail Demo Service",
+        "Status":  "Stopped",
+        "StartType":  "Disabled",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RemoteAccess",
+        "DisplayName":  "Routing and Remote Access",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "RpcEptMapper",
+        "DisplayName":  "RPC Endpoint Mapper",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "seclogon",
+        "DisplayName":  "Secondary Logon",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SstpSvc",
+        "DisplayName":  "Secure Socket Tunneling Protocol Service",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SamSs",
+        "DisplayName":  "Security Accounts Manager",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "wscsvc",
+        "DisplayName":  "Security Center",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SensorDataService",
+        "DisplayName":  "Sensor Data Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "SensrSvc",
+        "DisplayName":  "Sensor Monitoring Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "SensorService",
+        "DisplayName":  "Sensor Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "LanmanServer",
+        "DisplayName":  "Server",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "shpamsvc",
+        "DisplayName":  "Shared PC Account Manager",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ShellHWDetection",
+        "DisplayName":  "Shell Hardware Detection",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SCardSvr",
+        "DisplayName":  "Smart Card",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "ScDeviceEnum",
+        "DisplayName":  "Smart Card Device Enumeration Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "SCPolicySvc",
+        "DisplayName":  "Smart Card Removal Policy",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SNMPTrap",
+        "DisplayName":  "SNMP Trap",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "sppsvc",
+        "DisplayName":  "Software Protection",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "svsvc",
+        "DisplayName":  "Spot Verifier",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "SSDPSRV",
+        "DisplayName":  "SSDP Discovery",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "StateRepository",
+        "DisplayName":  "State Repository Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WiaRpc",
+        "DisplayName":  "Still Image Acquisition Events",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "StorSvc",
+        "DisplayName":  "Storage Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "TieringEngineService",
+        "DisplayName":  "Storage Tiers Management",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SysMain",
+        "DisplayName":  "SysMain",
+        "Status":  "Stopped",
+        "StartType":  "Disabled",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SENS",
+        "DisplayName":  "System Event Notification Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SystemEventsBroker",
+        "DisplayName":  "System Events Broker",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Schedule",
+        "DisplayName":  "Task Scheduler",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "lmhosts",
+        "DisplayName":  "TCP/IP NetBIOS Helper",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "TapiSrv",
+        "DisplayName":  "Telephony",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "TextInputManagementService",
+        "DisplayName":  "Text Input Management Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Themes",
+        "DisplayName":  "Themes",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "McmSvc",
+        "DisplayName":  "This service provides profile management for mobile connectivity modules",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "TbtP2pShortcutService",
+        "DisplayName":  "Thunderbolt(TM) Peer to Peer Shortcut",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "TimeBrokerSvc",
+        "DisplayName":  "Time Broker",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "UdkUserSvc_61607",
+        "DisplayName":  "UdkUserSvc_61607",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "UnistoreSvc_61607",
+        "DisplayName":  "UnistoreSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "UsoSvc",
+        "DisplayName":  "Update Orchestrator Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "upnphost",
+        "DisplayName":  "UPnP Device Host",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "UrBackupClientBackend",
+        "DisplayName":  "UrBackup Client Service for Backups",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "UrBackupWinServer",
+        "DisplayName":  "UrBackup Windows Server",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "UevAgentService",
+        "DisplayName":  "User Experience Virtualization Service",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "UserManager",
+        "DisplayName":  "User Manager",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "ProfSvc",
+        "DisplayName":  "User Profile Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "UserDataSvc_61607",
+        "DisplayName":  "UserDataSvc_61607",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "vds",
+        "DisplayName":  "Virtual Disk",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "VSS",
+        "DisplayName":  "Volume Shadow Copy",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WaaSMedicSvc",
+        "DisplayName":  "WaaSMedicSvc",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WalletService",
+        "DisplayName":  "WalletService",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WarpJITSvc",
+        "DisplayName":  "Warp JIT Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "TokenBroker",
+        "DisplayName":  "Web Account Manager",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "webthreatdefsvc",
+        "DisplayName":  "Web Threat Defense Service",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "WebClient",
+        "DisplayName":  "WebClient",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "webthreatdefusersvc_61607",
+        "DisplayName":  "webthreatdefusersvc_61607",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WFDSConMgrSvc",
+        "DisplayName":  "Wi-Fi Direct Services Connection Manager Service",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Audiosrv",
+        "DisplayName":  "Windows Audio",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "AudioEndpointBuilder",
+        "DisplayName":  "Windows Audio Endpoint Builder",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SDRSVC",
+        "DisplayName":  "Windows Backup",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WbioSrvc",
+        "DisplayName":  "Windows Biometric Service",
+        "Status":  "Stopped",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "FrameServer",
+        "DisplayName":  "Windows Camera Frame Server",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "FrameServerMonitor",
+        "DisplayName":  "Windows Camera Frame Server Monitor",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "wcncsvc",
+        "DisplayName":  "Windows Connect Now - Config Registrar",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "Wcmsvc",
+        "DisplayName":  "Windows Connection Manager",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Sense",
+        "DisplayName":  "Windows Defender Advanced Threat Protection Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "mpssvc",
+        "DisplayName":  "Windows Defender Firewall",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WEPHOSTSVC",
+        "DisplayName":  "Windows Encryption Provider Host Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "WerSvc",
+        "DisplayName":  "Windows Error Reporting Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Wecsvc",
+        "DisplayName":  "Windows Event Collector",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "EventLog",
+        "DisplayName":  "Windows Event Log",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "FontCache",
+        "DisplayName":  "Windows Font Cache Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "whesvc",
+        "DisplayName":  "Windows Health and Optimized Experiences",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "StiSvc",
+        "DisplayName":  "Windows Image Acquisition (WIA)",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "wisvc",
+        "DisplayName":  "Windows Insider Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "msiserver",
+        "DisplayName":  "Windows Installer",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "LicenseManager",
+        "DisplayName":  "Windows License Manager Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "Winmgmt",
+        "DisplayName":  "Windows Management Instrumentation",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WManSvc",
+        "DisplayName":  "Windows Management Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WMPNetworkSvc",
+        "DisplayName":  "Windows Media Player Network Sharing Service",
+        "Status":  "Stopped",
+        "StartType":  "Disabled",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "icssvc",
+        "DisplayName":  "Windows Mobile Hotspot Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "TrustedInstaller",
+        "DisplayName":  "Windows Modules Installer",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "perceptionsimulation",
+        "DisplayName":  "Windows Perception Simulation Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "FontCache3.0.0.0",
+        "DisplayName":  "Windows Presentation Foundation Font Cache 3.0.0.0",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WpnService",
+        "DisplayName":  "Windows Push Notifications System Service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "PushToInstall",
+        "DisplayName":  "Windows PushToInstall Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "WinRM",
+        "DisplayName":  "Windows Remote Management (WS-Management)",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WSearch",
+        "DisplayName":  "Windows Search",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "SecurityHealthService",
+        "DisplayName":  "Windows Security Service",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "W32Time",
+        "DisplayName":  "Windows Time",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "wuauserv",
+        "DisplayName":  "Windows Update",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "ApxSvc",
+        "DisplayName":  "Windows Virtual Audio Device Proxy Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "WinHttpAutoProxySvc",
+        "DisplayName":  "WinHTTP Web Proxy Auto-Discovery Service",
+        "Status":  "Running",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "dot3svc",
+        "DisplayName":  "Wired AutoConfig",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WlanSvc",
+        "DisplayName":  "WLAN AutoConfig",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "wmiApSrv",
+        "DisplayName":  "WMI Performance Adapter",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "workfolderssvc",
+        "DisplayName":  "Work Folders",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "LanmanWorkstation",
+        "DisplayName":  "Workstation",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WpnUserService_61607",
+        "DisplayName":  "WpnUserService_61607",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WSAIFabricSvc",
+        "DisplayName":  "WSAIFabricSvc",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "WwanSvc",
+        "DisplayName":  "WWAN AutoConfig",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "XboxGipSvc",
+        "DisplayName":  "Xbox Accessory Management Service",
+        "Status":  "Stopped",
+        "StartType":  "Manual",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "XblAuthManager",
+        "DisplayName":  "Xbox Live Auth Manager",
+        "Status":  "Stopped",
+        "StartType":  "Disabled",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "XblGameSave",
+        "DisplayName":  "Xbox Live Game Save",
+        "Status":  "Stopped",
+        "StartType":  "Disabled",
+        "IsTrigger":  true
+    },
+    {
+        "Name":  "XboxNetApiSvc",
+        "DisplayName":  "Xbox Live Networking Service",
+        "Status":  "Stopped",
+        "StartType":  "Disabled",
+        "IsTrigger":  false
+    },
+    {
+        "Name":  "ZTHELPER",
+        "DisplayName":  "ZTDNS Helper service",
+        "Status":  "Running",
+        "StartType":  "Automatic",
+        "IsTrigger":  false
+    }
+]
