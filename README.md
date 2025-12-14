@@ -66,6 +66,18 @@ Apply a configuration from a JSON file.
 [Back to Top](#table-of-contents)
 
 ## Directory Structure
+```text
+.
+├── configs/                # Permanent reference configurations
+├── docs/                   # Documentation
+│   ├── ai-optimization-guide.md
+│   └── release-notes.md
+├── exports/                # Exported system snapshots
+├── LICENSE
+├── ManageServices.ps1      # Core logic script
+├── README.md
+└── ServiceManagerGUI.ps1   # Graphical Interface
+```
 -   **`\configs`**: Permanent storage for your reference configurations (e.g., `final-optimized-config.json`, `reference-optimized.json`). Use this for files you want to keep and load often.
 -   **`\exports`**: Default location for new snapshots exported from your system.
 
