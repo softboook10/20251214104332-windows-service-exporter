@@ -319,7 +319,7 @@ Add-Type -AssemblyName PresentationFramework
 
                 <!-- Save Plan -->
                 <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
-                    <Button Name="btnSavePlan" Content="💾 Save PLAN As New Version..." Background="#2a9d8f"/>
+                    <Button Name="btnSavePlan" Content="💾 Save PLAN As New Version..." Background="#388E3C"/>
                 </StackPanel>
             </Grid>
         </TabItem>
